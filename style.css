@@ -1,11 +1,126 @@
-:root{
-    max-width: 1200px;
+
+*{
     top: 0;
     margin: 0;
-
+    box-sizing: border-box;
 }
 
 
 body{
     font-family:Helvetica;
+}
+
+nav{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #1B5583;
+    z-index: 99;
+}
+
+.navbar{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar .logo{
+    height: 120px;
+    cursor: pointer;   
+}
+
+.navbar ul{
+    display: flex;
+
+}
+
+.navbar li{
+    display: flex;
+
+    
+}
+.navbar a{
+    color: #FFB045;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: 800;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+}
+.navbar a:hover {
+    background-color: #1B5583;
+    color: white; 
+
+}
+
+/* Home section*/
+.Home{
+    margin-top: 6%;
+    margin-left:7%;
+}
+
+.content h1{
+    font-size: 40px;
+    color: #FFB045;
+    font-family: monospace;
+    margin-bottom: 20px;
+}
+
+.content span{
+    color: #1B5583;
+}
+
+.content h2{
+    font-size: 30px;
+    color: #1B5583;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.content p{
+    font-size: 22px;
+    text-transform: capitalize;
+    line-height: 2rem;
+    font-family: monospace;
+    font-weight: 600;
+    color: #1B5583;
+    
+}
+
+.btn{
+    padding-top: 20px;
+    
+}
+.btn .hire{
+    background-color: #FFB045;
+    border-radius: 100px;
+    border: 3px #1B5583 solid;
+    color: #1B5583;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn .Services{
+    background-color: #FFB045;
+    border-radius: 100px;
+    border: 3px #1B5583 solid;
+    color: #1B5583;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn :hover{
+    cursor: pointer;
+    background-color: #1B5583;
+    color: #FFB045;
+    transition: ease-in-out 3s;
+}
+
+.image img{
+    max-width: 100%;
+    height: auto;
+    display: flex;
 }
